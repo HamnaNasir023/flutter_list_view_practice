@@ -3,7 +3,8 @@ import 'package:flutter_list_view_practice/country.dart';
 import 'package:flutter_list_view_practice/country_list_tile.dart';
 
 class CountryListView extends StatelessWidget {
-  const CountryListView({super.key, required this.country});
+  const CountryListView(
+      {super.key, required this.country,});
   final List<Country> country;
 
   @override
